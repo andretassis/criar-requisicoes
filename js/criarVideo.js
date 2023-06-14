@@ -9,9 +9,13 @@ async function postarVideos(evento) {
     const titulo = document.querySelector("[data-titulo]").value;
     const descricao = Math.floor(Math.random() * 10).toString();
 
-    await conexaoApi.criarVideos(titulo, descricao, url, imagem);
+    try {
+        await conexaoApi.criarVideos(titulo, descricao, url, imagem);
 
-    window.location.href = "../pages/envio-concluido.html"
+        window.location.href = "../pages/envio-concluido.html"
+    } catch (e) {
+        alert(e);
+    }
 }
 
 formulario.addEventListener("submit", evento => postarVideos(evento))

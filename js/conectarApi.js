@@ -21,6 +21,10 @@ async function criarVideos(titulo, descricao, url, imagem) {
         })
     });
 
+    if (!conexao.ok) {
+        throw new Error("Não foi possível adicionar o video. Tente novamente.")
+    }
+
     const conexaoJson = await conexao.json();
 
     return conexaoJson
