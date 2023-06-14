@@ -17,3 +17,9 @@
 ## Screenshots
 ![Screenshot da tela inicial do AluraPlay](https://imgur.com/aymxEsh.png)
 ![Screenshot da tela do formulário do AluraPlay](https://imgur.com/ShNADf2.png)
+
+
+Transformar o site da AluraPlay em dinâmico; -> estava estatico. criei o JS para exibir os videos dinamicamente.
+Permitir que o CLoude nessa lista seja possível;
+Implementar uma ferramenta de busca;
+
