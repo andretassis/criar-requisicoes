@@ -21,5 +21,5 @@
 
 Transformar o site da AluraPlay em dinâmico; -> estava estatico. criei o JS para exibir os videos dinamicamente.
 Permitir que o CLoude nessa lista seja possível (ou seja, permitir que seja possivel adicionar um novo video) --> o formulario não fazia nada, agora envia videos.
-Implementar uma ferramenta de busca;
+Implementar uma ferramenta de busca; --> busca implementada
 
