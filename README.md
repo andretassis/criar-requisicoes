@@ -1,25 +1,19 @@
-<p align="center"> <img src="https://imgur.com/J3hD21O.png" alt="Javascript: criando requisições"> </p>
+# Plataforma de compartilhamento de vídeos
 
-<hr>
+Projeto de um site de compartilhamento de vídeos com consumo de dados de uma API que fora criada com o auxílio do Node.js e json-server.
 
-<p align="center"> <img src="https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png" alt="Logo da Alura"> </p>
-<p align="center">Página inicial e formulário de cadastro de vídeos da AluraPlay, uma plataforma de compartilhamento de vídeos.</p>
+## Funcionalidades
 
-## Tecnologias utilizadas durante o curso
-* Javascript
-* NodeJS
-* Json-server
-
-## Tecnologias utilizadas no projeto
-* HTML
-* CSS
-
-## Screenshots
-![Screenshot da tela inicial do AluraPlay](https://imgur.com/aymxEsh.png)
-![Screenshot da tela do formulário do AluraPlay](https://imgur.com/ShNADf2.png)
+- Site dinâmico
+- Possível inserir novos vídeos preenchendo o formulário
+- Ferramenta de busca
 
 
-Transformar o site da AluraPlay em dinâmico; -> estava estatico. criei o JS para exibir os videos dinamicamente.
-Permitir que o CLoude nessa lista seja possível (ou seja, permitir que seja possivel adicionar um novo video) --> o formulario não fazia nada, agora envia videos.
-Implementar uma ferramenta de busca; --> busca implementada
+## Stack utilizada
+
+**Front-end:** HTML, CSS, JavaSript
+
+**Back-end:** Node.js
+
+
 
